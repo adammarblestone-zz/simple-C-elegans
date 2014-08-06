@@ -50,8 +50,8 @@ def main():
         cells_connections[cellName] = [c]
         cells_gaps[cellName] = [c]
         
-    # write the coordinates to a file for Sam
-    outfile = open("OpenWorm/nominal_cell_coords_for_Sam.txt", "w")
+    # write the coordinates to a file
+    outfile = open("OpenWorm/nominal_cell_coords.txt", "w")
     for name in all_the_cell_names:
         outfile.write("%s\t%f\t%f\t%f\n" % (name, cells_connections[name][0][0], cells_connections[name][0][1], cells_connections[name][0][2]))
     outfile.close()
