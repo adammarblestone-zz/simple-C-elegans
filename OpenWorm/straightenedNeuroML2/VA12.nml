@@ -1,0 +1,65 @@
+<neuroml xmlns="http://www.neuroml.org/schema/neuroml2"  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta2.xsd" id="VA12">
+    <include href="LeakConductance.nml"></include>
+    <cell id="VA12">
+        <notes>
+        Motor Neuron
+      </notes>
+        <morphology id="morphology_VA12">
+            <segment id="0" name="Seg0_soma_0">
+                <proximal y="3.152812e+02" x="-1.000000e-01" z="1.346623e+01" diameter="4.183300e+00"/>
+                <distal y="3.152812e+02" x="-1.000000e-01" z="1.346623e+01" diameter="4.183300e+00"/>
+            </segment>
+            <segment id="1" name="Seg0_axon_0">
+                <parent fractionAlong="1" segment="0"/>
+                <proximal y="3.152812e+02" x="-1.000000e-01" z="1.346623e+01" diameter="6.000000e-01"/>
+                <distal y="3.152217e+02" x="-1.000000e-01" z="1.350437e+01" diameter="6.000000e-01"/>
+            </segment>
+            <segment id="2" name="Seg2_axon_0">
+                <parent fractionAlong="1" segment="1"/>
+                <distal y="3.120929e+02" x="-1.000000e-01" z="1.423873e+01" diameter="6.000000e-01"/>
+            </segment>
+            <segment id="3" name="Seg3_axon_0">
+                <parent fractionAlong="1" segment="2"/>
+                <distal y="3.031924e+02" x="-1.000000e-01" z="1.646186e+01" diameter="5.656855e-01"/>
+            </segment>
+            <segment id="4" name="Seg4_axon_0">
+                <parent fractionAlong="1" segment="3"/>
+                <distal y="2.751188e+02" x="-1.000000e-01" z="1.741669e+01" diameter="5.656855e-01"/>
+            </segment>
+            <segment id="5" name="Seg5_axon_0">
+                <parent fractionAlong="1" segment="4"/>
+                <distal y="2.505959e+02" x="-1.000000e-01" z="1.966495e+01" diameter="5.656855e-01"/>
+            </segment>
+            <segment id="6" name="Seg6_axon_0">
+                <parent fractionAlong="1" segment="5"/>
+                <distal y="2.223148e+02" x="-1.000000e-01" z="2.434024e+01" diameter="5.656855e-01"/>
+            </segment>
+            <segment id="7" name="Seg7_axon_0">
+                <parent fractionAlong="1" segment="6"/>
+                <distal y="2.204856e+02" x="-1.000000e-01" z="2.480310e+01" diameter="5.656855e-01"/>
+            </segment>
+            <segmentGroup id="Soma">
+                <member segment="0"/>
+            </segmentGroup>
+            <segmentGroup id="Axon">
+                <member segment="1"/>
+                <member segment="2"/>
+                <member segment="3"/>
+                <member segment="4"/>
+                <member segment="5"/>
+                <member segment="6"/>
+                <member segment="7"/>
+            </segmentGroup>
+            <segmentGroup id="all">
+                <include segmentGroup="Soma"/>
+                <include segmentGroup="Axon"/>
+            </segmentGroup>
+            <segmentGroup id="soma_group">
+                <include segmentGroup="Soma"/>
+            </segmentGroup>
+            <segmentGroup id="axon_group">
+                <include segmentGroup="Axon"/>
+            </segmentGroup>
+        </morphology>
+    </cell>
+</neuroml>
