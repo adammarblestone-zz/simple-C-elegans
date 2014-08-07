@@ -2,15 +2,15 @@
 
 '''Simulates the dynamics of part or all of the C. elegans neural network.
 
-This code is *deliberately simple* in order to help the user gain intuition for the qualitatively properties of the network dynamics.
+This code is *deliberately simple* in order to help the user gain intuition for the qualitative properties of the network dynamics.
 
-Key references:
+Key references include:
 
 1) Wicks, Stephen R., Chris J. Roehrig, and Catharine H. Rankin. "A dynamic network simulation of the nematode tap withdrawal circuit: predictions concerning synaptic function using behavioral criteria." The Journal of neuroscience 16.12 (1996): 4017-4031.
 
 2) Kunert, James, Eli Shlizerman, and J. Nathan Kutz. "Low-dimensional functionality of complex network dynamics: Neurosensory integration in the Caenorhabditis elegans connectome." Physical Review E 89.5 (2014): 052805.
 
-3) http://www.openworm.org/
+3) http://www.openworm.org/ and the associated resources
 '''
 
 import neuroml
