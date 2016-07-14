@@ -138,7 +138,7 @@ def main():
         runSVD(soln)
     
     # set up plots for the animation
-    setupAnimation(soln)
+    #setupAnimation(soln)
     
     # show the plots
     plt.show()
