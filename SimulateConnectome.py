@@ -34,7 +34,7 @@ usePickle = False
 connectome_spreadsheet = "OpenWorm/connectome.csv"
 
 # all the neurons
-#all_the_cell_names = ["ADAL","ADAR","ADEL","ADER","ADFL","ADFR","ADLL","ADLR","AFDL","AFDR","AIAL","AIAR","AIBL","AIBR","AIML","AIMR","AINL","AINR","AIYL","AIYR","AIZL","AIZR","ALA","ALML","ALMR","ALNL","ALNR","AQR","AS1","AS2","AS3","AS4","AS5","AS6","AS7","AS8","AS9","AS10","AS11","ASEL","ASER","ASGL","ASGR","ASHL","ASHR","ASIL","ASIR","ASJL","ASJR","ASKL","ASKR","AUAL","AUAR","AVAL","AVAR","AVBL","AVBR","AVDL","AVDR","AVEL","AVER","AVFL","AVFR","AVG","AVHL","AVHR","AVJL","AVJR","AVKL","AVKR","AVL","AVM","AWAL","AWAR","AWBL","AWBR","AWCL","AWCR","BAGL","BAGR","BDUL","BDUR","CEPDL","CEPDR","CEPVL","CEPVR","DA1","DA2","DA3","DA4","DA5","DA6","DA7","DA8","DA9","DB1","DB2","DB3","DB4","DB5","DB6","DB7","DD1","DD2","DD3","DD4","DD5","DD6","DVA","DVB","DVC","FLPL","FLPR","HSNL","HSNR","I1L","I1R","I2L","I2R","I3","I4","I5","I6","IL1DL","IL1DR","IL1L","IL1R","IL1VL","IL1VR","IL2DL","IL2DR","IL2L","IL2R","IL2VL","IL2VR","LUAL","LUAR","M1","M2L","M2R","M3L","M3R","M4","M5","MCL","MCR","MI","NSML","NSMR","OLLL","OLLR","OLQDL","OLQDR","OLQVL","OLQVR","PDA","PDB","PDEL","PDER","PHAL","PHAR","PHBL","PHBR","PHCL","PHCR","PLML","PLMR","PLNL","PLNR","PQR","PVCL","PVCR","PVDL","PVDR","PVM","PVNL","PVNR","PVPL","PVPR","PVQL","PVQR","PVR","PVT","PVWL","PVWR","RIAL","RIAR","RIBL","RIBR","RICL","RICR","RID","RIFL","RIFR","RIGL","RIGR","RIH","RIML","RIMR","RIPL","RIPR","RIR","RIS","RIVL","RIVR","RMDDL","RMDDR","RMDL","RMDR","RMDVL","RMDVR","RMED","RMEL","RMER","RMEV","RMFL","RMFR","RMGL","RMGR","RMHL","RMHR","SAADL","SAADR","SAAVL","SAAVR","SABD","SABVL","SABVR","SDQL","SDQR","SIADL","SIADR","SIAVL","SIAVR","SIBDL","SIBDR","SIBVL","SIBVR","SMBDL","SMBDR","SMBVL","SMBVR","SMDDL","SMDDR","SMDVL","SMDVR","URADL","URADR","URAVL","URAVR","URBL","URBR","URXL","URXR","URYDL","URYDR","URYVL","URYVR","VA1","VA2","VA3","VA4","VA5","VA6","VA7","VA8","VA9","VA10","VA11","VA12","VB1","VB2","VB3","VB4","VB5","VB6","VB7","VB8","VB9","VB10","VB11", "VC1", "VC2", "VC3","VC4","VC5", "VD1", "VD2", "VD3", "VD4", "VD5", "VD6", "VD7", "VD8", "VD9", "VD10", "VD11", "VD12", "VD13"] 
+all_the_cell_names = ["ADAL","ADAR","ADEL","ADER","ADFL","ADFR","ADLL","ADLR","AFDL","AFDR","AIAL","AIAR","AIBL","AIBR","AIML","AIMR","AINL","AINR","AIYL","AIYR","AIZL","AIZR","ALA","ALML","ALMR","ALNL","ALNR","AQR","AS1","AS2","AS3","AS4","AS5","AS6","AS7","AS8","AS9","AS10","AS11","ASEL","ASER","ASGL","ASGR","ASHL","ASHR","ASIL","ASIR","ASJL","ASJR","ASKL","ASKR","AUAL","AUAR","AVAL","AVAR","AVBL","AVBR","AVDL","AVDR","AVEL","AVER","AVFL","AVFR","AVG","AVHL","AVHR","AVJL","AVJR","AVKL","AVKR","AVL","AVM","AWAL","AWAR","AWBL","AWBR","AWCL","AWCR","BAGL","BAGR","BDUL","BDUR","CEPDL","CEPDR","CEPVL","CEPVR","DA1","DA2","DA3","DA4","DA5","DA6","DA7","DA8","DA9","DB1","DB2","DB3","DB4","DB5","DB6","DB7","DD1","DD2","DD3","DD4","DD5","DD6","DVA","DVB","DVC","FLPL","FLPR","HSNL","HSNR","I1L","I1R","I2L","I2R","I3","I4","I5","I6","IL1DL","IL1DR","IL1L","IL1R","IL1VL","IL1VR","IL2DL","IL2DR","IL2L","IL2R","IL2VL","IL2VR","LUAL","LUAR","M1","M2L","M2R","M3L","M3R","M4","M5","MCL","MCR","MI","NSML","NSMR","OLLL","OLLR","OLQDL","OLQDR","OLQVL","OLQVR","PDA","PDB","PDEL","PDER","PHAL","PHAR","PHBL","PHBR","PHCL","PHCR","PLML","PLMR","PLNL","PLNR","PQR","PVCL","PVCR","PVDL","PVDR","PVM","PVNL","PVNR","PVPL","PVPR","PVQL","PVQR","PVR","PVT","PVWL","PVWR","RIAL","RIAR","RIBL","RIBR","RICL","RICR","RID","RIFL","RIFR","RIGL","RIGR","RIH","RIML","RIMR","RIPL","RIPR","RIR","RIS","RIVL","RIVR","RMDDL","RMDDR","RMDL","RMDR","RMDVL","RMDVR","RMED","RMEL","RMER","RMEV","RMFL","RMFR","RMGL","RMGR","RMHL","RMHR","SAADL","SAADR","SAAVL","SAAVR","SABD","SABVL","SABVR","SDQL","SDQR","SIADL","SIADR","SIAVL","SIAVR","SIBDL","SIBDR","SIBVL","SIBVR","SMBDL","SMBDR","SMBVL","SMBVR","SMDDL","SMDDR","SMDVL","SMDVR","URADL","URADR","URAVL","URAVR","URBL","URBR","URXL","URXR","URYDL","URYDR","URYVL","URYVR","VA1","VA2","VA3","VA4","VA5","VA6","VA7","VA8","VA9","VA10","VA11","VA12","VB1","VB2","VB3","VB4","VB5","VB6","VB7","VB8","VB9","VB10","VB11", "VC1", "VC2", "VC3","VC4","VC5", "VD1", "VD2", "VD3", "VD4", "VD5", "VD6", "VD7", "VD8", "VD9", "VD10", "VD11", "VD12", "VD13"] 
 
 # just the core sensory + interneuron circuit from Wicks + forward motor neurons: DA, VA and AS would need to be added for backwards motion
 # all_the_cell_names = ["AVM", "AVDL","AVDR", "AVAL","AVAR","AVBL","AVBR","ALML","ALMR","PLML","PLMR","PVCL","PVCR","PVDL","PVDR","DVA","DB1","DB2","DB3","DB4","DB5","DB6","DB7","DD1","DD2","DD3","DD4","DD5","DD6","VB1","VB2","VB3","VB4","VB5","VB6","VB7","VB8","VB9", "VB10","VB11", "VD1", "VD2", "VD3", "VD4", "VD5", "VD6", "VD7", "VD8", "VD9", "VD10", "VD11", "VD12", "VD13"] 
@@ -46,7 +46,7 @@ connectome_spreadsheet = "OpenWorm/connectome.csv"
 # all_the_cell_names = ["AVM", "AVDL","AVDR", "AVAL","AVAR","AVBL","AVBR","ALML","ALMR","PLML","PLMR","PVCL","PVCR","PVDL","PVDR","DVA","LUAL","LUAR"] 
 
 # core sensory + interneuron  circuit + LUAL and LUAR + forward motor neurons
-all_the_cell_names = ["AVM", "AVDL","AVDR", "AVAL","AVAR","AVBL","AVBR","ALML","ALMR","PLML","PLMR","PVCL","PVCR","PVDL","PVDR","DVA","LUAL","LUAR", "DB1","DB2","DB3","DB4","DB5","DB6","DB7","DD1","DD2","DD3","DD4","DD5","DD6","VB1","VB2","VB3","VB4","VB5","VB6","VB7","VB8","VB9", "VB10","VB11", "VD1", "VD2", "VD3", "VD4", "VD5", "VD6", "VD7", "VD8", "VD9", "VD10", "VD11", "VD12", "VD13"] 
+#all_the_cell_names = ["AVM", "AVDL","AVDR", "AVAL","AVAR","AVBL","AVBR","ALML","ALMR","PLML","PLMR","PVCL","PVCR","PVDL","PVDR","DVA","LUAL","LUAR", "DB1","DB2","DB3","DB4","DB5","DB6","DB7","DD1","DD2","DD3","DD4","DD5","DD6","VB1","VB2","VB3","VB4","VB5","VB6","VB7","VB8","VB9", "VB10","VB11", "VD1", "VD2", "VD3", "VD4", "VD5", "VD6", "VD7", "VD8", "VD9", "VD10", "VD11", "VD12", "VD13"] 
 
 # core sensory + interneuron  circuit from Wicks + LUAL and LUAR + forward motor neurons + backwards motor neurons
 # all_the_cell_names = ["AVM", "AVDL","AVDR", "AVAL","AVAR","AVBL","AVBR","ALML","ALMR","PLML","PLMR","PVCL","PVCR","PVDL","PVDR","DVA","LUAL","LUAR", "DB1","DB2","DB3","DB4","DB5","DB6","DB7","DD1","DD2","DD3","DD4","DD5","DD6","VB1","VB2","VB3","VB4","VB5","VB6","VB7","VB8","VB9", "VB10","VB11", "VD1", "VD2", "VD3", "VD4", "VD5", "VD6", "VD7", "VD8", "VD9", "VD10", "VD11", "VD12", "VD13", "DA1","DA2","DA3","DA4","DA5","DA6","DA7","DA8","DA9","VA1","VA2","VA3","VA4","VA5","VA6","VA7","VA8","VA9","VA10","VA11","VA12", "AS1","AS2","AS3","AS4","AS5","AS6","AS7","AS8","AS9","AS10","AS11"]
@@ -76,10 +76,10 @@ coords_of_labeled_neuron = (None, None, None)
 '''Simulation parameters'''
 # params of the simulation
 I_ext_magnitude = 0.5 * 1e-12 # external current in units of Amperes
-stim_dur = 5.0
-stim_start = 1.0
+stim_dur = 0.5
+stim_start = 0.5
 start_time = 0.0
-end_time = 20.0
+end_time = 1.5
 I_ext_mask = [1.0 if all_the_cell_names[i] in ["PLML", "PLMR"] else 0.0 for i in indices] # which neurons get external current input
 
 '''Dynamical parameters.'''
@@ -442,7 +442,7 @@ def buildAdjacency():
                else:
                    Other_adjacency[k1][k2] = connection_nums[k1][k2]
                # this matrix just includes GABAergic, Cholinergic and Glutamatergic synapses
-               GABA_Chol_Glut_adjacency[k1][k2] = GABA_adjacency[k1][k2] + Chol_adjacency[k1][k2] + Glut_adjacency[k1][k2]- Other_adjacency[k1][k2] 
+               GABA_Chol_Glut_adjacency[k1][k2] = GABA_adjacency[k1][k2] + Chol_adjacency[k1][k2] + Glut_adjacency[k1][k2] + Other_adjacency[k1][k2] 
                
 def plotAdjacency():
        # plot the transmitter-specific adjacency matrices
